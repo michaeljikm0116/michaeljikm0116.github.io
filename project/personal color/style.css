@@ -1,0 +1,53 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.heading {
+  margin-bottom: 20px;
+  margin: auto;
+}
+.main {
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 300px;
+  height: 400px;
+  padding-top: 40px;
+}
+.inner {
+  width: 300px;
+  height: 150px;
+  background-color: white;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+#first {
+  background-color: #20B2AA;
+}
+#second {
+  background-color: #BC8F8F;
+}
+#third{
+  background-color: #4682B4;
+}
+#fourth{
+  background-color: #FAF0E6;
+}
+#fifth {
+  background-color: #6495ED;
+}
+#sixth {
+  background-color: #4169E1;
+}
+#seventh {
+  background-color: #000080;
+}
+#eighth {
+  background-color: #191970;
+}

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="main_content">
+      <div class="main_screen singer_screen">
+        <div class="nav_bar">
+          <a href="../index.html"> <i class="fas fa-arrow-left"></i> </a>
+        </div>
+        <div class="main_photo">
+          <div class="singer_photo">
+            <img
+              src="https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9"
+              alt=""
+            />
+            <div class="singer_info">
+              <h1>Drake</h1>
+              <span>월별 리스너 81,558,67명</span>
+            </div>
+          </div>
+        </div>
+        <div class="singer_icons">
+          <span class="play_button"><i class="fas fa-play"></i></span>
+          <span><i class="fas fa-random"></i></span>
+          <span class="follow_button">팔로우하기</span>
+          <span><i class="fas fa-ellipsis-h"></i></span>
+        </div>
+        <div class="top_songs_main">
+          <h1>인기</h1>
+          <div class="top_songs">
+            <div class="top_song">
+              <div class="song_info1">
+                <span>1</span>
+                <img
+                  src="data:image/jpeg;base64,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"
+                  alt=""
+                />
+                <span>One Dance</span>
+              </div>
+              <div class="song_info2">
+                <span>1,531,944</span>
+              </div>
+              <div class="song_info3">
+                <i class="fas fa-plus"></i>
+                <span>2:53</span>
+                <i class="fas fa-ellipsis-h"></i>
+              </div>
+            </div>
+            <div class="top_song">
+              <div class="song_info1">
+                <span>2</span>
+                <img
+                  src="https://cdn-images.dzcdn.net/images/cover/b69d3bcbd130ad4cc9259de543889e30/1900x1900-000000-80-0-0.jpg"
+                  alt=""
+                />
+                <span>God's Plan</span>
+              </div>
+              <div class="song_info2">
+                <span>856,261	</span>
+              </div>
+              <div class="song_info3">
+                <i class="fas fa-plus"></i>
+                <span>3:18</span>
+                <i class="fas fa-ellipsis-h"></i>
+              </div>
+            </div>
+
+            <div class="top_song">
+              <div class="song_info1">
+                <span>3</span>
+                <img
+                  src="https://i.scdn.co/image/ab67616d0000b2734f0fd9dad63977146e685700"
+                  alt=""
+                />
+                <span>Passion fruit</span>
+              </div>
+              <div class="song_info2">
+                <span>1,006,289</span>
+              </div>
+              <div class="song_info3">
+                <i class="fas fa-plus"></i>
+                <span>4:59</span>
+                <i class="fas fa-ellipsis-h"></i>
+              </div>
+            </div>
+            <div class="top_song">
+              <div class="song_info1">
+                <span>4</span>
+                <img
+                  src="https://i.scdn.co/image/ab67616d0000b2739416ed64daf84936d89e671c"
+                  alt=""
+                />
+                <span>Hotline Bling</span>
+              </div>
+              <div class="song_info2">
+                <span>	577,037	</span>
+              </div>
+              <div class="song_info3">
+                <i class="fas fa-plus"></i>
+                <span>4:27</span>
+                <i class="fas fa-ellipsis-h"></i>
+              </div>
+            </div>
+            <div class="top_song">
+              <div class="song_info1">
+                <span>5</span>
+                <img
+                  src="https://i.scdn.co/image/ab67616d0000b273f907de96b9a4fbc04accc0d5"
+                  alt=""
+                />
+                <span>In My Feeligns</span>
+              </div>
+              <div class="song_info2">
+                <span>197,898	</span>
+              </div>
+              <div class="song_info3">
+                <i class="fas fa-plus"></i>
+                <span>3:37</span>
+                <i class="fas fa-ellipsis-h"></i>
+              </div>
+            </div>
+            <div class="top_song">
+              <div class="song_info1">
+                <span>6</span>
+                <img
+                  src="https://i.scdn.co/image/ab67616d0000b2734d382194384bc6e08eb090f6"
+                  alt=""
+                />
+                <span>MIA (feat. Drake)</span>
+              </div>
+              <div class="song_info2">
+                <span>	390,814</span>
+              </div>
+              <div class="song_info3">
+                <i class="fas fa-plus"></i>
+                <span>3:30</span>
+                <i class="fas fa-ellipsis-h"></i>
+              </div>
+            </div>
+            <div class="top_song">
+              <div class="song_info1">
+                <span>7</span>
+                <img
+                  src="https://i1.sndcdn.com/artworks-JusxLeYac6vWSV3L-pZiuyA-t500x500.jpg"
+                  alt=""
+                />
+                <span>Jimmy Crooks (feat. 21 Savage)</span>
+              </div>
+              <div class="song_info2">
+                <span>457,279	</span>
+              </div>
+              <div class="song_info3">
+                <i class="fas fa-plus"></i>
+                <span>3:38</span>
+                <i class="fas fa-ellipsis-h"></i>
+              </div>
+            </div>
+            <div class="top_song">
+              <div class="song_info1">
+                <span>8</span>
+                <img
+                  src="https://i.scdn.co/image/ab67616d0000b273adfb5909ec66db5fbb4d06c8"
+                  alt=""
+                />
+                <span>Hold On, We're Going Home</span>
+              </div>
+              <div class="song_info2">
+                <span>451,608</span>
+              </div>
+              <div class="song_info3">
+                <i class="fas fa-plus"></i>
+                <span>3:45</span>
+                <i class="fas fa-ellipsis-h"></i>
+              </div>
+            </div>
+            <div class="top_song">
+              <div class="song_info1">
+                <span>9</span>
+                <img
+                  src="https://i.scdn.co/image/ab67616d0000b2734f0fd9dad63977146e685700"
+                  alt=""
+                />
+                <span>Fake Love</span>
+              </div>
+              <div class="song_info2">
+                <span>112,802</span>
+              </div>
+              <div class="song_info3">
+                <i class="fas fa-plus"></i>
+                <span>3:31</span>
+                <i class="fas fa-ellipsis-h"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="user.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main_content">
+      <!--header is a container that contains two icons and title-->
+      <div class="header">
+        <span><i class="fa fa-camera"></i></span>
+        <span id="heading">Instagram</span>
+        <span><i class="far fa-paper-plane"></i></span>
+      </div>
+      <!--div named story is a container that has four stories inside-->
+      <div class="story">
+        <!--Div named inner_story is a single story box (image and name)-->
+        <div class="inner_story">
+          <div class="story_profile my_story">
+            <!--Switch with you image here-->
+            <img
+              src="https://i2-prod.football.london/incoming/article23451545.ece/ALTERNATES/s1200b/1_GettyImages-1386730233.jpg"
+            />
+          </div>
+          <!--Switch with your name (ID) here-->
+          <span id="name">hm_son7</span>
+        </div>
+        <div class="inner_story">
+          <div class="story_profile my_story">
+            <!--Switch with you image here-->
+            <img
+              src="https://imageio.forbes.com/specials-images/imageserve/6835929d1552b62381828c44/FC-Barcelona-fans-can-enjoy-Lamine-Yamal-until-at-least-2031-/960x0.jpg?format=jpg&width=960"
+            />
+          </div>
+          <!--Switch with your name (ID) here-->
+          <span id="name">lamineyamal</span>
+        </div>
+        <div class="inner_story">
+          <div class="story_profile my_story">
+            <!--Switch with you image here-->
+            <img
+              src="https://image.bugsm.co.kr/artist/images/224/200086/20008679.jpg"
+            />
+          </div>
+          <!--Switch with your name (ID) here-->
+          <span id="name">ph1boyyy</span>
+        </div>
+        <div class="inner_story">
+          <div class="story_profile my_story">
+            <!--Switch with you image here-->
+            <img
+              src="https://publish.realmadrid.com/content/dam/common/statics/public-content/internet/web/rm-spa-web/images/meta/og-image.png"
+            />
+          </div>
+          <!--Switch with your name (ID) here-->
+          <span id="name">realmadrid</span>
+        </div>
+      </div>
+      <div class="main_feed">
+<div class="feed">
+          <div class="feed_user">
+            <div class="user_image">
+              <!--Feed's User Image here!-->
+              <img
+                src="data:image/png;base64,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"
+              />
+            </div>
+            <div class="user_name">
+              <!--Feed's User Name here!-->
+              <h2>shoheiohtani</h2>
+            </div>
+          </div>
+          <div class="feed_main">
+            <!--Main Feed Image here!-->
+            <div class="slideshow-container">
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img
+                  src="https://media.cnn.com/api/v1/images/stellar/prod/ap25168092733497.jpg?c=16x9&q=h_833,w_1480,c_fill"
+                  style="width: 100%"
+                />
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img
+                  src="https://www.kget.com/wp-content/uploads/sites/2/2025/06/68589f7ccfd0a7.36782920.jpeg?w=2560&h=1440&crop=1"
+                  style="width: 100%"
+                />
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img
+                  src="https://www.hollywoodreporter.com/wp-content/uploads/2024/10/GettyImages-2181091865-1.jpg?w=1296&h=730&crop=1"
+                  style="width: 100%"
+                />
+              </div>
+
+               <div class="mySlides fade">
+                <div class="numbertext">4/ 4</div>
+                <img
+                  src="https://cdnph.upi.com/svc/sv/upi/1711721645445/2024/1/fc2f2c822128c97b7f59c18c6a999adb/Shohei-Ohtani-smashes-30th-homer-out-of-Dodger-Stadium.jpg"
+                  style="width: 100%"
+                />
+              </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <!-- The dots/circles -->
+            <div style="text-align: center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+
+            <div class="feed_icon">
+              <span> <i class="far fa-heart"></i></span>
+              <span><i class="far fa-comment"></i></span>
+              <span><i class="far fa-paper-plane"></i></span>
+            </div>
+            <div class="feed_info">
+              <!--Change here-->
+              <span>좋아요 1,030,568개</span>
+              <span>
+                <!--Do not delete strong just change the text inside it (that the user id)-->
+                <strong>shoheiohtani</strong> I'm back.</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="feed">
+          <div class="feed_user">
+            <div class="user_image">
+              <!--Feed's User Image here!-->
+              <img
+                src="https://i2-prod.football.london/incoming/article23451545.ece/ALTERNATES/s1200b/1_GettyImages-1386730233.jpg"
+              />
+            </div>
+            <div class="user_name">
+              <!--Feed's User Name here!-->
+              <h2>hm_son7</h2>
+            </div>
+          </div>
+          <div class="feed_main">
+            <!--Main Feed Image here!-->
+            <div class="slideshow-container">
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides2 fade">
+                <div class="numbertext">1 / 3</div>
+                <img
+                  src="https://s.yimg.com/ny/api/res/1.2/vSXoxYCswfnwjgOKo9OAZQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQxODtjZj13ZWJw/https://media.zenfs.com/en/pitchside_us_articles_859/d3b16928bd14b429446bb5b18d932e44"
+                  style="width: 100%"
+                />
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">2 / 3</div>
+                <img
+                  src="https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls-lafc/vo4wskbjwwnwdmepxarp.jpg"
+                  style="width: 100%"
+                />
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">3 / 3</div>
+                <img
+                  src="https://www.dailybreeze.com/wp-content/uploads/2025/09/GettyImages-2235448264-1.jpg?w=525"
+                  style="width: 100%"
+                />
+              </div>
+
+              
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+            </div>
+
+            <!-- The dots/circles -->
+            <div style="text-align: center">
+              <span class="dot2" onclick="currentSlide2(1)"></span>
+              <span class="dot2" onclick="currentSlide2(2)"></span>
+              <span class="dot2" onclick="currentSlide2(3)"></span>
+            
+            </div>
+
+            <div class="feed_icon">
+              <span> <i class="far fa-heart"></i></span>
+              <span><i class="far fa-comment"></i></span>
+              <span><i class="far fa-paper-plane"></i></span>
+            </div>
+            <div class="feed_info">
+              <!--Change here-->
+              <span>좋아요 540,491개</span>
+              <span>
+                <!--Do not delete strong just change the text inside it (that the user id)-->
+                <strong>hm_son7</strong> Proud moment to make my debut. More to come!! 😁 @lafc</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="feed">
+          <div class="feed_user">
+            <div class="user_image">
+              <!--Feed's User Image here!-->
+              <img
+                src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT9r_g7AT5i-8bij2YaSYoQfAoV-JpvsR3q9pXjj1ESoep-KDWo2jGK013RH6FYa3cLeSgP9Uz3Q9Fey-yDtSeuKkcXoNSAHYCVm7PsYWPVeg"
+              />
+            </div>
+            <div class="user_name">
+              <!--Feed's User Name here!-->
+              <h2>o.dembele7</h2>
+            </div>
+          </div>
+          <div class="feed_main">
+            <!--Main Feed Image here!-->
+            <div class="feed_img">
+              <img
+                src="https://www.chinadailyhk.com/upload/main/image/2025/09/23/d702693456fc8de09d670d634030da72.jpg"
+              />
+            </div>
+
+            <div class="feed_icon">
+              <span> <i class="far fa-heart"></i></span>
+              <span><i class="far fa-comment"></i></span>
+              <span><i class="far fa-paper-plane"></i></span>
+            </div>
+            <div class="feed_info">
+              <!--Change here-->
+              <span>좋아요 6,642,568개</span>
+              <span>
+                <!--Do not delete strong just change the text inside it (that the user id)-->
+                <strong>o.dembele7</strong> So much joy, pride, and emotion. A dream come true. Thank you to everyone who has always supported me throughout this journey. #ballondor</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="feed">
+          <div class="feed_user">
+            <div class="user_image">
+              <!--Feed's User Image here!-->
+              <img
+                src="https://interscope.com/cdn/shop/files/M5_IGA_ArtistHub.png?v=1746213846&width=900"
+              />
+            </div>
+            <div class="user_name">
+              <!--Feed's User Name here!-->
+              <h2>maroon5</h2>
+            </div>
+          </div>
+          <div class="feed_main">
+            <!--Main Feed Image here!-->
+            <div class="feed_img">
+              <img
+                src="https://images.genius.com/e0a538cfb9b106c3caa22550c047d3d3.1000x1000x1.jpg"
+              />
+            </div>
+
+            <div class="feed_icon">
+              <span> <i class="far fa-heart"></i></span>
+              <span><i class="far fa-comment"></i></span>
+              <span><i class="far fa-paper-plane"></i></span>
+            </div>
+            <div class="feed_info">
+              <!--Change here-->
+              <span>좋아요 132,568개</span>
+              <span>
+                <!--Do not delete strong just change the text inside it (that the user id)-->
+                <strong>maroon5</strong> Japan! “THE SINGLES COLLECTION” will be released exclusively in Japan on November 26th!
+Booklet will include photos from our 3 sold-out shows at Tokyo Dome in February of this year.</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav_bar">
+        <a href="index.html"><i class="fas fa-home"></i></a>
+        <a href="user.html"><i class="far fa-user"></i></a>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

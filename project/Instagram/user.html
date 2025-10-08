@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="user.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main_content">
+      <!--header is a container that contains two icons and title-->
+      <div class="header">
+        <span id="heading">xxxibgdrgn</span>
+      </div>
+      <!--div named story is a container that has four stories inside-->
+      <div class="user_profile">
+        <div class="profile_photo">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt=""
+          />
+        </div>
+        <div class="profile_info_main">
+          <div class="profile_info">
+            <h1>7</h1>
+            <h2>게시물</h2>
+          </div>
+          <div class="profile_info">
+            <h1>2,486만</h1>
+            <h2>팔로워</h2>
+          </div>
+          <div class="profile_info">
+            <h1>1</h1>
+            <h2>팔로잉</h2>
+          </div>
+        </div>
+      </div>
+      <div class="user_info">
+        <h1>G-DRAGON
+</h1>
+        <h1>권지용(權志龍)</h1>
+      </div>
+      <div class="profile_btns">
+        <div class="profile_btn">
+          <h1>팔로잉</h1>
+        </div>
+        <div class="profile_btn">
+          <h1>메시지</h1>
+        </div>
+      </div>
+      <div class="profile_menu">
+        <div class="menu_btn"><i class="fas fa-th"></i></div>
+        <div class="menu_btn"><i class="fas fa-film"></i></div>
+        <div class="menu_btn"><i class="far fa-id-badge"></i></div>
+      </div>
+      <div class="profile_feed_main">
+        <div class="profile_feed">
+          <img
+            src="https://images.en.koreaportal.com/data/images/full/48826/gdragon-from-offical-instagram.jpg?w=750"
+            alt=""
+          />
+        </div>
+        <div class="profile_feed">
+          <img
+            src="https://imageio.forbes.com/specials-images/imageserve/68b0761dd30e3ba93b04efd0/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds"
+            alt=""
+          />
+        </div>
+        <div class="profile_feed">
+          <img
+            src="https://static.wikia.nocookie.net/kpop/images/7/70/G-Dragon_%C3%9Cbermensch_concept_photo_1.png/revision/latest?cb=20250312034408"
+            alt=""
+          />
+        </div>
+        <div class="profile_feed">
+          <img
+            src="https://www.hollywoodreporter.com/wp-content/uploads/2025/06/GettyImages-2213387075-e1750125383774.jpg"
+            alt=""
+          />
+        </div>
+        <div class="profile_feed">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0hvhk00pwAAijiBiOJNmqdjpdcp1TV2oo1vNLFzGR-ova0cDXpfIxPWlfy8sv4ZS6CTo&usqp=CAU"
+            alt=""
+          />
+        </div>
+        <div class="profile_feed">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3PEsImtSC6V1nmU5aZTIEfwurLajvxHaDD1vuAN5hybgq3CCmUctMOfJ84A5Jaj4SEPo&usqp=CAU"
+            alt=""
+          />
+        </div>
+        <div class="profile_feed">
+          <img
+            src="https://namastehallyu.com/wp-content/uploads/2024/11/GDmainphoto-819x1024.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="nav_bar">
+        <a href="index.html"><i class="fas fa-home"></i></a>
+        <a href="user.html"><i class="fas fa-user"></i></a>
+      </div>
+    </div>
+  </body>
+</html>
